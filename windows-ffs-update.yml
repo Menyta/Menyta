@@ -21,8 +21,8 @@
     - win_reboot:
       when: result.reboot_required
 
-    - name: update freefilesync
+    - name: update winscp
       win_chocolatey:
-        name: freefilesync
+        name: winscp
         state: latest
-        source: https://freefilesync.org/download/
+   
