@@ -25,6 +25,4 @@
       win_chocolatey:
         name: freefilesync
         state: latest
-        source: https://freefilesync.org/download/FreeFileSync_11.11_Windows_Setup.exe 
-
-    
+        source: https://freefilesync.org/download/
